@@ -4,6 +4,7 @@
   "description": "playfield",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/enderakay/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/enderakay/react-boilerplate#readme"
+  "homepage": "https://github.com/enderakay/react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
 }
