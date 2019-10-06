@@ -1,5 +1,6 @@
 import React from 'react'
 import {hot} from 'react-hot-loader'
+import './App.scss'
 
 class App extends React.Component {
     state = {
